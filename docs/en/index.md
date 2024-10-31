@@ -11,10 +11,10 @@ hero:
     alt: EasyTidy
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Download
       link: /zh/markdown-examples
     - theme: alt
-      text: API Examples
+      text: Document
       link: /zh/api-examples
 
 features:

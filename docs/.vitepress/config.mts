@@ -10,23 +10,48 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo/logo.svg',
     search: {
-      provider: 'local'
+      provider: 'local',
+      options: {
+        // https://vitepress.dev/reference/search-options
+        locales: {
+          root: {
+            translations: {
+              button: {
+                buttonText: "搜索文档",
+                buttonAriaLabel: "搜索文档"
+              },
+              modal: {
+                noResultsText: "无法找到相关结果",
+                resetButtonTitle: "清除查询条件",
+                footer: {
+                  selectText: "选择",
+                  navigateText: "切换",
+                  closeText: "关闭",
+                }
+              }
+            }
+          },
+          en: {
+            translations: {
+              button: {
+                buttonText: "Search",
+                buttonAriaLabel: "Search"
+              },
+              modal: {
+                noResultsText: "No results found",
+                resetButtonTitle: "Reset",
+                footer: {
+                  selectText: "Select",
+                  navigateText: "Navigate",
+                  closeText: "to close",
+                }
+              }
+            }
+          }
+        }
+      }
     },
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: '首页', link: '/' },
-      { text: 'Examples', link: '/zh/markdown-examples' }
-    ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/zh/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/zh/api-examples' }
-        ]
-      }
-    ],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/SaboZhang/Organize' }
@@ -36,9 +61,10 @@ export default defineConfig({
       copyright: 'Copyright © 2024-present SaboZhang'
     }
   },
+  // i18n
   locales: {
     root: {
-      label: "中文",
+      label: "简体中文",
       lang: "zh",
       ...zh,
     },
