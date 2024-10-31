@@ -7,12 +7,13 @@ export default defineConfig({
   title: "EasyTidy",
   description: "一个简单的文件整理工具",
   head: [["link", { rel: "icon", type: "image/x-icon", href: "/logo/favicon.ico" }]],
+  lastUpdated: true,
   themeConfig: {
     logo: '/logo/logo.svg',
     search: {
       provider: 'local',
       options: {
-        // https://vitepress.dev/reference/search-options
+        // https://vitepress.dev/zh/reference/default-theme-search
         locales: {
           root: {
             translations: {
