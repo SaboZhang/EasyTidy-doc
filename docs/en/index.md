@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "EasyTidy"
-  text: "一个简单的文件整理工具"
+  text: "An easy-to-use desktop organizer"
   tagline: My great project tagline
   image:
     src: /logo/logo.svg
@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: Markdown Examples
-      link: /zh-CN/markdown-examples
+      link: /zh/markdown-examples
     - theme: alt
       text: API Examples
-      link: /zh-CN/api-examples
+      link: /zh/api-examples
 
 features:
   - title: Feature A
