@@ -18,11 +18,17 @@ hero:
       link: /zh/api-examples
 
 features:
-  - title: Feature A
+  - title: 文件和文件夹过滤
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - title: 文件夹监控
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: 定时执行
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: CRON 表达式支持
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 多种操作方式
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 本地 WebDav 备份支持
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
