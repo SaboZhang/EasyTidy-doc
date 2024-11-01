@@ -26,7 +26,7 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: CRON 表达式支持
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: 多种操作方式
+  - title: 支持多种操作方式
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: 本地 WebDav 备份支持
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
