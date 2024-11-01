@@ -36,6 +36,14 @@ export const zh = {
                     ]
                 }
             ]
-        }
+        },
+        editLink: {
+            pattern: 'https://github.com/SaboZhang/EasyTidy-doc/edit/main/docs/:path',
+            text: '在 GitHub 上编辑此页面'
+        },
+        footer: {
+            message: '基于 MIT 许可发布',
+            copyright: `版权所有 © 2024 至今 SaboZhang`
+        },
     }
 }

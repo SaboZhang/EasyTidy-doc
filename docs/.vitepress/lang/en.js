@@ -35,6 +35,9 @@ export const en = {
                     ]
                 }
             ]
-        }
+        },
+        editLink: {
+            pattern: 'https://github.com/SaboZhang/EasyTidy-doc/edit/main/docs/:path'
+        },
     }
 }
