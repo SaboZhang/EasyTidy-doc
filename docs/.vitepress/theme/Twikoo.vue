@@ -6,7 +6,7 @@
  * @Author: zhangt tao993859833@live.cn
  * @Date: 2024-11-01 10:24:00
  * @LastEditors: zhangt tao993859833@live.cn
- * @LastEditTime: 2024-11-01 11:41:23
+ * @LastEditTime: 2024-11-01 15:28:46
  * 世界上最遥远的距离不是生与死，而是你亲手制造的BUG就在你眼前，你却怎么都找不到她
  * Copyright (c) 2024 by zhangt email: tao993859833@live.cn, All Rights Reserved
 -->
@@ -14,7 +14,7 @@
 import { ref, onMounted } from 'vue'
 import { useRouter } from 'vitepress'
 
-const envId = 'https://twikko.luckyits.com'
+const envId = 'https://twikko.luckyits.com/.netlify/functions/twikoo'
 const twikooJs = ref(null)
 const router = useRouter()
 
