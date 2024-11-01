@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "EasyTidy"
   text: "一个简单的文件整理工具"
-  tagline: My great project tagline
+  # tagline: My great project tagline
   image:
     src: /logo/logo.svg
     alt: EasyTidy
