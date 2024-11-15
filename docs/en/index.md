@@ -15,7 +15,7 @@ hero:
       link: /en/download
     - theme: alt
       text: Document
-      link: /en/guide/
+      link: /en/docs/
 
 features:
   - title: Filter Files & Folders

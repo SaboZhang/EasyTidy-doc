@@ -6,7 +6,7 @@
 * @Author: zhangt tao993859833@live.cn
 * @Date: 2024-10-31 11:34:01
 * @LastEditors: zhangt tao993859833@live.cn
-* @LastEditTime: 2024-11-15 17:18:03
+* @LastEditTime: 2024-11-15 17:52:20
 * @世界上最遥远的距离不是生与死，而是你亲手制造的BUG就在你眼前，你却怎么都找不到她
 * @Copyright (c) 2024 by zhangt email: tao993859833@live.cn, All Rights Reserved
 */
@@ -20,7 +20,7 @@ export const en = {
     themeConfig: {
         nav: [
             { text: "Home", link: "/en/" },
-            { text: "Document", link: "/en/guide/" },
+            { text: "Document", link: "/en/docs/" },
             { text: "Download", link: "/en/download" },
             {
                 text: "Community",
@@ -35,21 +35,21 @@ export const en = {
             { text: "About", link: "/en/about" },
         ],
         sidebar: {
-            "/en/guide/": [
+            "/en/docs/": [
                 {
                     text: "Document",
                     items: [
-                        { text: "Install Guide", link: "/en/install/" },
+                        { text: "Install Guide", link: "/en/docs/install/" },
                         { 
                             text: "Software Config", 
                             collapsed: true, 
                             items: [
-                                { text: "General", link: "/en/guide/general" },
-                                { text: "Filter", link: "/en/guide/filter" },
-                                { text: "Task Orchestration", link: "/en/guide/task" },
-                                { text: "Example of Rules", link: "/en/guide/rules" },
-                                { text: "Automation", link: "/en/guide/automation" },
-                                { text: "Hotkey", link: "/en/guide/shortcut" },
+                                { text: "General", link: "/en/docs/guide/general" },
+                                { text: "Filter", link: "/en/docs/guide/filter" },
+                                { text: "Task Orchestration", link: "/en/docs/guide/task" },
+                                { text: "Example of Rules", link: "/en/docs/guide/rules" },
+                                { text: "Automation", link: "/en/docs/guide/automation" },
+                                { text: "Hotkey", link: "/en/docs/guide/shortcut" },
                             ]
                         },
                         { text: "FAQ", link: "/en/guide/faq" },
