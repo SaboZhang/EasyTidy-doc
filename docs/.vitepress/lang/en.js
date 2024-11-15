@@ -6,7 +6,7 @@
 * @Author: zhangt tao993859833@live.cn
 * @Date: 2024-10-31 11:34:01
 * @LastEditors: zhangt tao993859833@live.cn
-* @LastEditTime: 2024-11-15 17:52:20
+* @LastEditTime: 2024-11-15 17:55:03
 * @世界上最遥远的距离不是生与死，而是你亲手制造的BUG就在你眼前，你却怎么都找不到她
 * @Copyright (c) 2024 by zhangt email: tao993859833@live.cn, All Rights Reserved
 */
@@ -52,7 +52,7 @@ export const en = {
                                 { text: "Hotkey", link: "/en/docs/guide/shortcut" },
                             ]
                         },
-                        { text: "FAQ", link: "/en/guide/faq" },
+                        { text: "FAQ", link: "/en/docs/faq/" },
                     ]
                 }
             ]
