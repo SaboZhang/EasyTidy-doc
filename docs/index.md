@@ -15,7 +15,7 @@ hero:
       link: /download
     - theme: alt
       text: 使用指南
-      link: /zh/api-examples
+      link: /zh/
 
 features:
   - title: 文件和文件夹过滤
