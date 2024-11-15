@@ -55,7 +55,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/SaboZhang/Organize' }
+      { icon: 'github', link: 'https://github.com/SaboZhang/EasyTidy' }
     ],
     footer: {
       message: 'Released under the MIT License.',
