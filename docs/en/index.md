@@ -4,25 +4,31 @@ layout: home
 
 hero:
   name: "EasyTidy"
-  text: "An easy-to-use desktop organizer"
-  tagline: My great project tagline
+  text: "A simple file auto-classification tool"
+  tagline: Say goodbye to file chaos
   image:
     src: /logo/logo.svg
     alt: EasyTidy
   actions:
     - theme: brand
       text: Download
-      link: /zh/markdown-examples
+      link: /en/download
     - theme: alt
       text: Document
-      link: /zh/api-examples
+      link: /en/guide/
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Filter Files & Folders
+    details: By name, directory, size, dates, properties, content or regular expressions
+  - title: Folder Monitoring
+    details: Process files and folders automatically monitoring defined directories
+  - title: Scheduled Execution
+    details: Based on matched files and folder related conditions, automatically perform corresponding operations according to the configured scheduled task
+  - title: CRON expression supported
+    details: Supports customized CRON expressions and categorizes files based on input execution date. Precisely control file categorization.
+  - title: Support for multiple modes of operation
+    details: Automatically perform an action on matching files and folders
+  - title: Local & WebDav Backup Support
+    details: Provide local and WebDav backup support functions, which can be used to back up relevant data using the WebDav protocol, or to back up in local folders
 ---
 

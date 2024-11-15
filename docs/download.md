@@ -9,7 +9,7 @@ editLink: false
 import { ref,computed } from 'vue'
 import axios from 'axios'
 
-const version = 'v0.1.0-Preview'
+const version = '1.0.1.1114'
 
 const ghproxy = 'https://mirror.ghproxy.com/'
 
@@ -79,7 +79,7 @@ const download = (type, param)=>{
         font-weight: bold;
         font-size: 40px;
         margin: 50px 0;
-        color: #af67c1;
+        color: #77b3e5;
     }
 
     .info {
