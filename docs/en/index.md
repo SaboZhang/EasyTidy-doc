@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "EasyTidy"
   text: "A simple file auto-classification tool"
-  tagline: Say goodbye to file chaos
+  tagline: makes it easy to create automatic workflows with files.
   image:
     src: /logo/logo.svg
     alt: EasyTidy

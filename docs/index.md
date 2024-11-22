@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "EasyTidy"
   text: "一个简单的文件自动分类整理工具"
-  tagline: 告别文件混乱无序
+  tagline: 轻松创建文件的自动工作流程
   image:
     src: /logo/logo.svg
     alt: EasyTidy
