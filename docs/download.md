@@ -9,7 +9,7 @@ editLink: false
 import { ref,computed } from 'vue'
 import axios from 'axios'
 
-const version = '1.0.1.1114'
+const version = '1.0.7.1215'
 
 const ghproxy = 'https://mirror.ghproxy.com/'
 
@@ -22,17 +22,17 @@ const download = (type, param)=>{
         proxy = ''
 
     if (param === 'runtime')
-        url = `${proxy}https://github.com/SaboZhang/Organize/releases/download/${version}/EasyTidy_20211031_win-x64.7z`
-    
+        url = `${proxy}https://github.com/SaboZhang/Organize/releases/download/${version}/EasyTidy_${version}_win-x64.zip`
+
     else if (param === 'noruntime')
-        url = `${proxy}https://github.com/SaboZhang/Organize/releases/download/${version}/EasyTidy_20211031_win-x64.7z`
-    
+        url = `${proxy}https://github.com/SaboZhang/Organize/releases/download/${version}/EasyTidy_${version}_win-x64.zip`
+
     else if (param === '123')
         url = 'https://www.123684.com/s/hbzgTd-fmmt'
 
     else if (param === '蓝奏云')
         url = 'https://wwoo.lanzouj.com/ijQOa2dubvng'
-    
+
     console.log('url:' + url)
     open(url)
 }
