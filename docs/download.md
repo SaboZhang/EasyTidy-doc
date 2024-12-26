@@ -31,7 +31,7 @@ const download = (type, param)=>{
         url = 'https://www.123684.com/s/hbzgTd-fmmt'
 
     else if (param === '蓝奏云')
-        url = 'https://wwoo.lanzouj.com/ijQOa2dubvng'
+        url = 'https://wwoo.lanzouu.com/b02u2ne0eh'
 
     console.log('url:' + url)
     open(url)
