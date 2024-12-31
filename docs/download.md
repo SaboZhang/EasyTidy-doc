@@ -9,7 +9,7 @@ editLink: false
 import { ref,computed } from 'vue'
 import axios from 'axios'
 
-const version = '1.1.0.1226'
+const version = '1.1.1.0101'
 
 const ghproxy = 'https://mirror.ghproxy.com/'
 
@@ -61,7 +61,7 @@ const download = (type, param)=>{
             <Badge type="warning" text=".zip" />
         </button>
         <button :class="$style.button" @click="download('3', '蓝奏云')">
-            蓝奏云盘（提取码：2024）
+            蓝奏云盘（提取码：2025）
             <Badge type="warning" text=".zip" />
         </button>
     </div>

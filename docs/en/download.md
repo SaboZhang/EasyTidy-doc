@@ -9,7 +9,7 @@ editLink: false
 import { ref,computed } from 'vue'
 import axios from 'axios'
 
-const version = '1.0.1.1114'
+const version = '1.1.1.0101'
 
 const ghproxy = 'https://mirror.ghproxy.com/'
 
@@ -23,16 +23,16 @@ const download = (type, param)=>{
 
     if (param === 'runtime')
         url = `${proxy}https://github.com/SaboZhang/Organize/releases/download/${version}/EasyTidy_20211031_win-x64.7z`
-    
+
     else if (param === 'noruntime')
         url = `${proxy}https://github.com/SaboZhang/Organize/releases/download/${version}/EasyTidy_20211031_win-x64.7z`
-    
+
     else if (param === '123')
         url = 'https://www.123684.com/s/hbzgTd-fmmt'
 
     else if (param === '蓝奏云')
-        url = 'https://wwoo.lanzouj.com/ijQOa2dubvng'
-    
+        url = 'https://wwoo.lanzouu.com/b02u2ne0eh'
+
     console.log('url:' + url)
     open(url)
 }
@@ -61,7 +61,7 @@ const download = (type, param)=>{
             <Badge type="warning" text=".zip" />
         </button>
         <button :class="$style.button" @click="download('3', '蓝奏云')">
-            lanzouw (Extraction code: 2024)
+            lanzouw (Extraction code: 2025)
             <Badge type="warning" text=".zip" />
         </button>
     </div>
