@@ -7,6 +7,12 @@ titleTemplate: 安装指南
 
 ## 下载安装
 
+### 压缩包直接解压
+
+### 下载exe或者msi安装包
+
+### winget安装
+
 EasyTidy 目前仅支持 Windows 系统。
 
 ## 手动编译
