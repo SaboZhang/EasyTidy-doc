@@ -35,6 +35,11 @@ When a CRON expression is provided, it overrides the five rule fields above. The
 ![On Startup](/images/PixPin_2025-01-08_14-55-10.png)  
 Set the task to execute automatically once when EasyTidy starts.
 
+## exits or the system shuts down
+
+![exits or the system shuts down](/images/PixPin_2025-02-24_13-55-34.png)
+Configure EasyTidy to automatically run specified tasks when the program exits or the system shuts down. (Not guaranteed to run properly on all systems)
+
 ## Global Automation Analysis
 
 ![Global Settings](/images/PixPin_2025-01-08_15-01-18.png)  
@@ -55,6 +60,7 @@ The Task Association feature allows you to individually configure automatic exec
    Each task can be individually configured with the following automation methods:  
    - **File Changes**: Triggers task execution upon detecting file changes.  
    - **On Startup**: Executes the task when EasyTidy starts.  
+   - **On Exit/Shutdown**: Execute the task automatically, when the program exits or the system shuts down. (This may not work on all systems).
    - **Periodic Execution**: Executes tasks at specified intervals.  
    - **Scheduled Tasks**: Executes tasks according to a timetable or CRON expression.  
    - Enabling "Individual Settings" affects only the selected task and does not override other tasks.

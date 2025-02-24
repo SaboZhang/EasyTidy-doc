@@ -72,6 +72,9 @@ Configure whether EasyTidy should start with the system. When enabled, EasyTidy 
 
 Configure whether EasyTidy should automatically check for updates when the program starts. When enabled, EasyTidy will check for new versions (excluding beta versions) at startup and prompt for updates if a new version is available. This feature is **disabled** by default.
 
+![Update image](/images/PixPin_2025-02-24_13-58-58.png)
+Configure EasyTidy to enable or disable checking through a mirror source when updating, and to specify a mirror source address for automatic updates. This is provided to address difficulties directly connecting to GitHub for automatic updates. By default, the update mirror check is **disabled**, and the default mirror address is `https://gh-proxy.com/`.
+
 ![Minimize](/images/PixPin_2024-12-26_15-34-50.png)
 
 Configure whether EasyTidy should minimize to the system tray on startup. When enabled, EasyTidy will start minimized to the system tray without displaying the main interface. This feature is **disabled** by default.
