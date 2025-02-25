@@ -49,7 +49,7 @@ Create a relationship between the files or folders (rules, including associated 
 
 2. **Associate Advanced Rules (Optional)**
    - Click the "Funnel" button next to the processing rule field to choose a rule defined in the filter page. Once selected, the rule will be associated with the task.
-   
+
 3. **Choose File Handling Method**
    - `Move`: Moves files from the source folder to the target folder without changing file structure or names.
    - `Copy`: Copies files from the source folder to the target folder without changing file structure or names.
@@ -59,6 +59,8 @@ Create a relationship between the files or folders (rules, including associated 
    - `Extract`: Automatically extracts compressed files. If no target folder is provided, the files will be extracted in the source folder. For single files, extraction will occur in a folder named after the compressed file. If multiple files without a root directory are found, they will be extracted into a folder named after the compressed file. Only files matching the given rules will be extracted.
    - `Compress`: Automatically compresses files into a zip file. The zip file's name will be the same as the file's name, and the zip file's size and path will match the source file.
    - `Upload to WebDAV`: Automatically uploads matching files to a WebDAV server. Configuration of the WebDAV server must be done in the settings.
+   - `File encryption`: File encryption provides two methods: 1) 7z compressed file encryption, to create an encrypted compressed file; 2) AES-256 combined with PBKDF2 derived key encryption, which can be decrypted with commonly used tools like OpenSSL, ensuring a high level of security and compatibility.
+   - `File Snapshot`: Captures and exports a complete hierarchical file and directory structure of a hard disk drive as an HTML formatted snapshot document.
 
 4. **Shortcut and Enable**
    - `Enable`: Whether to enable this task. When enabled and associated with an automation trigger, EasyTidy will automatically run this task.
