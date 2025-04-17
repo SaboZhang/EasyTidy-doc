@@ -13,10 +13,8 @@ EasyTidy是一款开源的，专业的文件管理工具，旨在为用户提供
 
 <iframe src="https://sponsor.luckyits.top/" style="overflow-x:hidden;overflow-y:hidden; border:0xp none #fff; min-height:240px; width:100%;"  frameborder="0" scrolling="no"></iframe>
 
-交流社区，包括但不限于EasyTidy的交流
+交流社区，包括但不限于EasyTidy的交流；顺便推荐两个腾讯ima知识库，涵盖Linux跟大部分开发语言跟各种命令指令以及配置的快速参考
 
-![社区](/images/社区.jpg)
-
-推荐两个腾讯ima知识库涵盖Linux 跟 大部分开发语言跟各种命令指令以及配置的快速参考：
-![Quick Reference](/images/Quick-Reference二维码.png)
-![Quick Reference](/images/Linux知识库二维码.png)
+| 交流群     | Quick Reference知识库   |Linux知识库 |
+| :----- | :---------------------- | -----------|
+| ![社区](/images/社区.jpg) | ![Quick Reference](/images/Quick-Reference二维码.png) | ![Quick Reference](/images/Linux知识库二维码.png) |
