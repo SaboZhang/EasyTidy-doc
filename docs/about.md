@@ -11,6 +11,10 @@ EasyTidy是一款开源的，专业的文件管理工具，旨在为用户提供
 
 如果你觉得 DropIT 的任务监控无法满足需求，或者 File Juggler 3 的价格不太合适，可以尝试一下 EasyTidy。目前 EasyTidy 正在积极开发中，欢迎提出您的需求，我会考虑并接受一些合理的功能请求。
 
+交流社区，包括但不限于EasyTidy的交流
+
+![社区](/images/社区.jpg)
+
 推荐两个腾讯ima知识库涵盖Linux 跟 大部分开发语言跟各种命令指令以及配置的快速参考：
 ![Quick Reference](/images/Quick-Reference二维码.png)
 ![Quick Reference](/images/Linux知识库二维码.png)
