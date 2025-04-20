@@ -101,3 +101,9 @@ EasyTidy 是一个简单的文件自动分类整理工具，能轻松组建文�
 - [Windows社区工具包](https://github.com/CommunityToolkit/dotnet) 本地化、MVVM设计等,好用的社区扩展包
 - [WinUIEx](https://github.com/dotMorten/WinUIEx) 好用的扩展包
 - [PowerToys](https://github.com/microsoft/PowerToys) 界面设计灵感来源
+
+## 交流群
+
+包括但是不限于EasyTidy的微信交流群。
+
+![微信群](/images/社区.jpg)
