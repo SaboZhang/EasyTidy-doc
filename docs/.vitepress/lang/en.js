@@ -45,6 +45,7 @@ export const en = {
                             collapsed: true, 
                             items: [
                                 { text: "General", link: "/en/docs/guide/general" },
+                                { text: "AI Settings", link: "/en/docs/guide/AI" },
                                 { text: "Filter", link: "/en/docs/guide/filter" },
                                 { text: "Task Orchestration", link: "/en/docs/guide/task" },
                                 { text: "Example of Rules", link: "/en/docs/guide/rules" },

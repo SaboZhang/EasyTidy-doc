@@ -46,6 +46,7 @@ export const zh = {
                             collapsed: true, 
                             items: [
                                 { text: "常规配置", link: "/zh/guide/general" },
+                                { text: "AI设置", link: "/zh/guide/AI" },
                                 { text: "过滤器配置", link: "/zh/guide/filter" },
                                 { text: "任务编排", link: "/zh/guide/task" },
                                 { text: "规则示例", link: "/zh/guide/rules" },

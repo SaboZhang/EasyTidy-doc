@@ -1,0 +1,4 @@
+---
+title: EasyTidy
+titleTemplate: AI
+---
